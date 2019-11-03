@@ -22,6 +22,14 @@ namespace StackNQueue_1
 
         public void TakeFlapjacks(Flapjack food, int howMany)
         {
+            for (int i = 0; i < howMany; i++)
+            {
+                meal.Push(food);
+            }
+        }
+
+        public void EatFlapJacks()
+        {
 
         }
     }

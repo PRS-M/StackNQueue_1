@@ -38,12 +38,12 @@
             this.soggy = new System.Windows.Forms.RadioButton();
             this.browned = new System.Windows.Forms.RadioButton();
             this.banana = new System.Windows.Forms.RadioButton();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.howMany = new System.Windows.Forms.NumericUpDown();
             this.crispy = new System.Windows.Forms.RadioButton();
             this.line = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.howMany)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -79,7 +79,7 @@
             this.groupBox1.Controls.Add(this.soggy);
             this.groupBox1.Controls.Add(this.browned);
             this.groupBox1.Controls.Add(this.banana);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
+            this.groupBox1.Controls.Add(this.howMany);
             this.groupBox1.Controls.Add(this.crispy);
             this.groupBox1.Location = new System.Drawing.Point(125, 61);
             this.groupBox1.Name = "groupBox1";
@@ -113,6 +113,7 @@
             this.addFlapjacks.TabIndex = 6;
             this.addFlapjacks.Text = "Add flapjacks";
             this.addFlapjacks.UseVisualStyleBackColor = true;
+            this.addFlapjacks.Click += new System.EventHandler(this.addFlapjacks_Click);
             // 
             // soggy
             // 
@@ -147,12 +148,12 @@
             this.banana.Text = "Banana";
             this.banana.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
+            // howMany
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(6, 19);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(63, 20);
-            this.numericUpDown1.TabIndex = 7;
+            this.howMany.Location = new System.Drawing.Point(6, 19);
+            this.howMany.Name = "howMany";
+            this.howMany.Size = new System.Drawing.Size(63, 20);
+            this.howMany.TabIndex = 7;
             // 
             // crispy
             // 
@@ -197,7 +198,7 @@
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.howMany)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,7 +214,7 @@
         private System.Windows.Forms.RadioButton soggy;
         private System.Windows.Forms.RadioButton browned;
         private System.Windows.Forms.RadioButton banana;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown howMany;
         private System.Windows.Forms.RadioButton crispy;
         private System.Windows.Forms.ListBox line;
         private System.Windows.Forms.Label label2;
