@@ -11,12 +11,15 @@ namespace StackNQueue_1
         private string name;
         public string Name { get { return name; } }
         private Stack<Flapjack> meal;
+
         public Lumberjack(string name)
         {
             this.name = name;
-            meal = new Stack<Flapjack>;
+            meal = new Stack<Flapjack>();
         }
+
         public int FlapjackCount { get { return meal.Count; } }
+
         public void TakeFlapjacks(Flapjack food, int howMany)
         {
 
