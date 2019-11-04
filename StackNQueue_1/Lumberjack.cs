@@ -30,7 +30,11 @@ namespace StackNQueue_1
 
         public void EatFlapJacks()
         {
-
+            Console.WriteLine(name + "'s eating flapjacks.");
+            while (meal.Count > 0)
+            {
+                Console.WriteLine(name + " ate a " + meal.Pop().ToString().ToLower() + " flapjack.");
+            }
         }
     }
 }

@@ -70,6 +70,7 @@
             this.addLumberjack.TabIndex = 2;
             this.addLumberjack.Text = "Add lumberjack";
             this.addLumberjack.UseVisualStyleBackColor = true;
+            this.addLumberjack.Click += new System.EventHandler(this.addLumberjack_Click);
             // 
             // groupBox1
             // 
@@ -96,6 +97,7 @@
             this.nextLumberjack.TabIndex = 7;
             this.nextLumberjack.Text = "Next lumberjack";
             this.nextLumberjack.UseVisualStyleBackColor = true;
+            this.nextLumberjack.Click += new System.EventHandler(this.nextLumberjack_Click);
             // 
             // nextInLine
             // 
