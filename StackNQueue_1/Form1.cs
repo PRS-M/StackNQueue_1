@@ -17,6 +17,7 @@ namespace StackNQueue_1
         public Form1()
         {
             InitializeComponent();
+            RedrawList();
         }
 
         private void RedrawList()
